@@ -3,13 +3,17 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen, WaitListScreen } from '@screens';
 import React from 'react';
 import { StatusBar } from 'react-native';
+import BootSplash from 'react-native-bootsplash';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import './global.css';
 
 const Stack = createNativeStackNavigator();
 const App = () => {
   return (
-    <NavigationContainer>
+    <NavigationContainer
+      onReady={() => {
+        BootSplash.hide({fade: true});
+      }}>
       <StatusBar className="bg-primary" />
       <SafeAreaProvider>
         <SafeAreaView className="flex-1">

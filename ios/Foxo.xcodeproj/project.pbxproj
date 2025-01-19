@@ -15,6 +15,8 @@
 		6A18CD506C5DBC149760996E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-Foxo-FoxoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Foxo-FoxoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1419F7A57DCE4F69807F1693 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D3C84835BC49249C9A2D28 /* BootSplash.storyboard */; };
+		F446EA90CFC147E487D9AF4E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62B3C90B52446EAB9D24769 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Foxo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Foxo-FoxoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxo-FoxoTests.release.xcconfig"; path = "Target Support Files/Pods-Foxo-FoxoTests/Pods-Foxo-FoxoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		98D3C84835BC49249C9A2D28 /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "Foxo/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C62B3C90B52446EAB9D24769 /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "Foxo/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				98D3C84835BC49249C9A2D28 /* BootSplash.storyboard */,
+				C62B3C90B52446EAB9D24769 /* Colors.xcassets */,
 			);
 			name = Foxo;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				6A18CD506C5DBC149760996E /* PrivacyInfo.xcprivacy in Resources */,
+				1419F7A57DCE4F69807F1693 /* BootSplash.storyboard in Resources */,
+				F446EA90CFC147E487D9AF4E /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
